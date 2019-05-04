@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    padding-top: 0px;  
+    position: relative;
+    height: 100%;
+}
+
+p {
+    font-family: 'Hind Madurai', sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
+h1, h2, h3 {
+    font-family: 'Hind Madurai', sans-serif;
+    color:#982D44;
+    border-bottom: 1px solid black;
+}
+
+ul li {
+    font-family: 'Hind Madurai', sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
+a, a:link, a:active a:visited {
+    font-family: 'Hind Madurai', sans-serif;
+    color:#982D44;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: 'Hind Madurai', sans-serif;
+    color:#982D44;
+    text-decoration: underline;
+}
+
+#main {
+    width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container {
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 320px;
+}
+
+.hero {
+    background-image: url('');
+    background-position: center 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.hero img {
+    border: 0px;
+}
+
+nav.navbar-default {
+    background: #F2B6C3;
+    color: #982D44;
+    border: none;
+}
+
+nav.navbar-default a, a:link, a:active a:visited, ul li{
+        color: #982D44;
+}
+
+.btn {
+    background-color: lavenderblush;
+}
+
+footer {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #982D44;
+    background-color: #F2B6C3;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+footer a {
+    font-size: 14px;
+    color: rgb(168, 79, 98);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(202, 106, 127);
+    text-decoration: underline;
+}
+
+#contact {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-pills {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.media img {
+    width: 150px;
+}
+.media-right {
+    float: right;
+}
